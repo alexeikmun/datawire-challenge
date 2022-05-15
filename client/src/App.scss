@@ -1,0 +1,62 @@
+.Conatainer {
+  margin: 30px auto;
+  max-width: 70%;
+  min-width: 600px;
+
+  strong {
+    color: #795cec;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+
+    .title-group {
+      display: flex;
+      span {
+        color: #7c7c87;
+        font-weight: bold;
+        font-size: 1.9rem;
+        margin-left: 5px;
+      }
+    }
+
+    .filter-control {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+
+      label {
+        padding-right: 10px;
+      }
+      #filter {
+        min-width: 10em;
+      }
+    }
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  .services > h2 {
+    text-align: center;
+    margin-top: 2em;
+    color: #7c7c87;
+  }
+
+  fieldset {
+    border: 1px solid #dfdfdf;
+    padding: 15px;
+    margin-bottom: 10px;
+
+    legend {
+      float: none;
+      width: inherit;
+      color: #7c7c87;
+      font-size: 18px;
+      margin-left: -12px;
+      padding: 0 5px 0 5px;
+      font-weight: bold;
+    }
+  }
+}
